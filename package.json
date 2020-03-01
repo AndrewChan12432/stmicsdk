@@ -13,7 +13,7 @@
     "react-scripts": "3.4.0",
     "simple-react-lightbox": "^2.2.0"
   },
-  "homepage": "http://stmicsdk.com/index.html",
+  "homepage": "http://stmicsdk.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
