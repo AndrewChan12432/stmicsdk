@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/stmicsdk/static/css/main.61e94e14.chunk.css",
-    "main.js": "/stmicsdk/static/js/main.41390cfe.chunk.js",
-    "main.js.map": "/stmicsdk/static/js/main.41390cfe.chunk.js.map",
+    "main.js": "/stmicsdk/static/js/main.849c715a.chunk.js",
+    "main.js.map": "/stmicsdk/static/js/main.849c715a.chunk.js.map",
     "runtime-main.js": "/stmicsdk/static/js/runtime-main.3636f5f9.js",
     "runtime-main.js.map": "/stmicsdk/static/js/runtime-main.3636f5f9.js.map",
     "static/js/2.66ee3a04.chunk.js": "/stmicsdk/static/js/2.66ee3a04.chunk.js",
     "static/js/2.66ee3a04.chunk.js.map": "/stmicsdk/static/js/2.66ee3a04.chunk.js.map",
     "index.html": "/stmicsdk/index.html",
-    "precache-manifest.c8466611e0c563e8642c6825a8ac7848.js": "/stmicsdk/precache-manifest.c8466611e0c563e8642c6825a8ac7848.js",
+    "precache-manifest.4e0df19d89eb7a5e4378dc19c343dd77.js": "/stmicsdk/precache-manifest.4e0df19d89eb7a5e4378dc19c343dd77.js",
     "service-worker.js": "/stmicsdk/service-worker.js",
     "static/css/main.61e94e14.chunk.css.map": "/stmicsdk/static/css/main.61e94e14.chunk.css.map",
     "static/js/2.66ee3a04.chunk.js.LICENSE.txt": "/stmicsdk/static/js/2.66ee3a04.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.3636f5f9.js",
     "static/js/2.66ee3a04.chunk.js",
     "static/css/main.61e94e14.chunk.css",
-    "static/js/main.41390cfe.chunk.js"
+    "static/js/main.849c715a.chunk.js"
   ]
 }
