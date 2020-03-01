@@ -1,25 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Event from './Pagecomponents/Event';
+import Event_cont1 from './Pagecomponents/Event_cont1';
+import Event_cont2 from './Pagecomponents/Event_cont2';
+import DefaultPage from './Pagecomponents/DefaultPage';
+import Pastor from './Pagecomponents/Pastor';
+import History from './Pagecomponents/History';
+import Location from './Pagecomponents/Location';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Ministries from './Pagecomponents/Ministries';
+import Window from './Pagecomponents/Window';
+import LandingPage from './Pagecomponents/LandingPage';
+import SimpleReactLightbox from "simple-react-lightbox";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div className="App"> 
+       <SimpleReactLightbox>
+        <Navbar />
+        <Switch>
+          <Route exact path="/stmicsdk" component={DefaultPage} />
+          <Route path="/landing-page" component={LandingPage} />
+          <Route path="/pastor" component={Pastor} />
+          <Route path="/history" component={History} />
+          <Route path="/location" component={Location} />
+          <Route path="/ministries" component={Ministries} />
+          <Route path="/event" component={Event} />
+          <Route path="/event2" component={Event_cont1} />
+          <Route path="/event3" component={Event_cont2} />
+          <Route path="/window" component={Window} />
+        </Switch>
+        <Footer />
+       </SimpleReactLightbox>
     </div>
+    </Router>
   );
 }
 
