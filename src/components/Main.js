@@ -11,7 +11,7 @@ function Main() {
         window.scrollTo(0, 0)
     }
     return (
-        <div className="Main Up-index">
+        <div className="Main">
                 <div className="container-fluid event d-flex justify-content-center">
                     <div className="col-md-10 d-flex justify-content-center flex-column flex-lg-row">
                     <img src={ eventAnnounce } alt="event-announcement" className=" col-sm-6 col-lg-4" />

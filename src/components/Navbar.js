@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom'
 import Logo from '../images/stmiclogo_redcolor460x155-2.png';
 
 const Navbar = () => {
+    const ScrollToTop = () => {
+        window.scrollTo(0, 0)
+    }
     var keys = {32: 1, 37: 1, 38: 1, 39: 1, 40: 1};
-
 function preventDefault(e) {
   e = e || window.event;
   if (e.preventDefault)
@@ -40,16 +42,22 @@ function enableScroll() {
     function navDisapear() {
         document.querySelector('.nav-links').classList.toggle('nav-active');
         document.querySelector('.burger').classList.toggle('toggle')
-        if(document.querySelector(".nav-active")){
+        if(document.querySelector(".nav-active") && window.innerWidth < 1024){
             disableScroll();  
         }else {
             enableScroll();
         }
     }
+    function navSetting() {
+        navDisapear();
+        ScrollToTop()
+    }
     return (
         <div className="Navbar">
             <div className="nav-bg"></div>
-            <img src={ Logo } alt="stmitlogo" className="logo" />
+            <Link to="/">
+                <img src={ Logo } onClick={ScrollToTop} alt="stmitlogo" className="logo" />
+            </Link>
             <div className="burger" onClick={navDisapear}>
                 <div className="line1"></div>
                 <div className="line2"></div>
@@ -57,38 +65,38 @@ function enableScroll() {
             </div>
             <ul className="nav-links">
                 <Link to="/">
-                    <li onClick={navDisapear}>Home</li>
+                    <li onClick={navSetting}>Home</li>
                 </Link>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="http://www.anglicansabah.org/" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
                     <div className="dropdown-menu">
                         <ul className="drop-li">
                             <Link to="/pastor">
-                                <li className="dropdown-item" onClick={navDisapear}>Pastors Profile</li>
+                                <li className="dropdown-item" onClick={navSetting}>Pastors Profile</li>
                             </Link>                           
                              <Link to="/history">
-                                <li className="dropdown-item" onClick={navDisapear}>History</li>
+                                <li className="dropdown-item" onClick={navSetting}>History</li>
                             </Link>
                             <Link to="/location">
-                                <li className="dropdown-item" onClick={navDisapear}>Location</li>
+                                <li className="dropdown-item" onClick={navSetting}>Location</li>
                             </Link>
                         </ul>
                     </div>
                 </li>
                 <Link to="/ministries">
-                    <li onClick={navDisapear}>Ministries</li>
+                    <li onClick={navSetting}>Ministries</li>
                 </Link>
                 {/* <Link to="/gallery">
-                    <li onClick={navDisapear}>Gallery</li>
+                    <li onClick={navSetting}>Gallery</li>
                 </Link> */}
                 {/* <Link to="/resource">
-                    <li onClick={navDisapear}>Resources</li>
+                    <li onClick={navSetting}>Resources</li>
                 </Link> */}
                 <Link to="/event">
-                    <li  onClick={navDisapear}>Past Highlight</li>
+                    <li  onClick={navSetting}>Past Highlight</li>
                 </Link>
                 <Link to="/window">
-                    <li onClick={navDisapear}>The Windows of Remembrance & The Friendship Windows</li>
+                    <li onClick={navSetting}>The Windows of Remembrance & The Friendship Windows</li>
                 </Link>
             </ul>
         </div> 

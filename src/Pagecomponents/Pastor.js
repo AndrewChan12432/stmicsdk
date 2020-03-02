@@ -8,7 +8,7 @@ export default function Pastor() {
             <div className="d-flex justify-content-center">
             <div className="space-color Up-index">
             <h4>Pastor Profile</h4>
-            <div className="mt-4">
+            <div>
                 <h5>Archdeacon Yong Thiam Choy</h5>
                 <img src="http://stmicsdk.org/wp-content/uploads/2017/03/ytc-230x301.jpg" alt="Ad-Yong" />
                 <p>

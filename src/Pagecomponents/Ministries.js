@@ -5,7 +5,7 @@ export default function Ministries() {
     return (
         <div className="Ministrie">
             <Header name="church.jpg"/>
-            <div className="ministries-set Up-index">
+            <div className="ministries-set">
                <h4>Ministries</h4>
                <div className="d-flex flex-column flex-md-row">
                <div className="card col-12 col-md-6 col-lg-3 m-md-4">
