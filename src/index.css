@@ -470,9 +470,9 @@ body {
     padding: 40px;
     width: 40vw;;
   }
-  .intro h5{
-    padding: 18px
-  }
+  .intro h5 {
+    font-size: 18px;
+   }
   .Border {
     border-top: none;
     border-left: 2px solid rgb(22, 22, 22);
