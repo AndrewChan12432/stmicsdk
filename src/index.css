@@ -436,7 +436,7 @@ body {
   .carousel {
     padding: 0px 50px;
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
     text-align: left;
   }
   .carousel hr {
@@ -460,7 +460,7 @@ body {
   }
   .special-img {
     width: 50vw;
-    height: 50vh;
+    height: 60vh;
   }
   .wrapper-footer {
     display: flex;
@@ -469,6 +469,9 @@ body {
   .intro {
     padding: 40px;
     width: 40vw;;
+  }
+  .intro h5{
+    padding: 18px
   }
   .Border {
     border-top: none;

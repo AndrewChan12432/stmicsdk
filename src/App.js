@@ -21,7 +21,7 @@ function App() {
        <SimpleReactLightbox>
         <Navbar />
         <Switch>
-          <Route exact path="/index.html" component={DefaultPage} />
+          <Route exact path="/" component={DefaultPage} />
           <Route path="/landing-page" component={LandingPage} />
           <Route path="/pastor" component={Pastor} />
           <Route path="/history" component={History} />

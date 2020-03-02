@@ -56,7 +56,7 @@ function enableScroll() {
                 <div className="line3"></div>
             </div>
             <ul className="nav-links">
-                <Link to="/index.html">
+                <Link to="/">
                     <li onClick={navDisapear}>Home</li>
                 </Link>
                 <li className="nav-item dropdown">
