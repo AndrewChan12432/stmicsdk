@@ -8,21 +8,21 @@ export default function Ministries() {
             <div className="ministries-set">
                <h4>Ministries</h4>
                <div className="d-flex flex-column flex-md-row">
-               <div className="card col-12 col-md-6 col-lg-3 m-md-4">
+               <div className="card m-md-4">
                 <img className="card-img-top" src="http://stmicsdk.org/wp-content/uploads/2016/11/Woman-Ministry-300x114.png" alt="Card cap" />
                 <div className="card-body">
                     <h5>Sister's Fellowship(English/Chi)</h5>
                     <p className="card-text">Its purpose is to build up godly women, where women have their fellowship in order to help and uphold each other in Christ.</p>
                 </div>
                 </div>
-                <div className="card col-12 col-md-6 col-lg-3 m-md-4">
+                <div className="card m-md-4">
                 <img className="card-img-top" src="http://stmicsdk.org/wp-content/uploads/2016/11/Small-Group-300x114.png" alt="Card cap" />
                 <div className="card-body">
                     <h5>Small Group</h5>
                     <p className="card-text">We encourage every church member to belong in any of the church cell groups, if you want to be connected to any of our church cell groups, simply call the church office.</p>
                 </div>
                 </div>
-                <div className="card col-12 col-md-6 col-lg-3 m-md-4">
+                <div className="card m-md-4">
                 <img className="card-img-top" src="http://stmicsdk.org/wp-content/uploads/2016/11/Visitation-300x114.png" alt="Card cap" />
                 <div className="card-body">
                     <h5>Visitation</h5>
@@ -32,7 +32,7 @@ export default function Ministries() {
                     <p>Contact: Jessie Vun </p>
                 </div>
                 </div>
-                <div className="card col-12 col-md-6 col-lg-3 m-md-4"> 
+                <div className="card m-md-4"> 
                 <img className="card-img-top" src="http://stmicsdk.org/wp-content/uploads/2016/11/Senior-Citizen-300x114.png" alt="Card cap" />
                 <div className="card-body">
                     <h5>Senior Citizen</h5>
