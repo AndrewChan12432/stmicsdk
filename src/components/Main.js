@@ -19,7 +19,7 @@ function Main() {
                         <h5>New event had Begin!!</h5>
                         <p>Ad enim occaecat proident reprehenderit cillum eu ea magna. Eu nostrud irure qui aliqua cillum adipisicing velit consectetur dolore voluptate id nostrud et nisi. Sint duis anim proident incididunt sunt minim eu. Laboris in sint aliqua deserunt exercitation cillum. </p>
                         <Link to="/landing-page" onClick={ScrollToTop}> 
-                           <button>Learn more</button>
+                           <h6>Learn more</h6>
                         </Link>
                      </div>
                     </div>
@@ -84,10 +84,10 @@ function Main() {
                                                 <p>
                                                     Aliquip excepteur exercitation deserunt non reprehenderit 
                                                     ut culpa et esse consequat proident in esse. Incididunt 
-                                                    eiusmod est esse et excepteur.
+                                                    eiusmod est esse et excepteur proident in esse.
                                                 </p>
                                                 <Link to="/event" onClick={ScrollToTop}>
-                                                <button>Learn more</button>
+                                                <h6>Learn more</h6>
                                                 </Link>
                                             </div>
                                         </div>
@@ -102,10 +102,10 @@ function Main() {
                                                     <p>
                                                         Et est anim elit irure laboris officia tempor dolore 
                                                         tempor commodo amet aute eiusmod velit.Veniam 
-                                                        adipisicing.
+                                                        adipisicing.Irure laboris officia tempor aute eiusmod velit.
                                                     </p>
                                                     <Link to="/event2" onClick={ScrollToTop}>
-                                                    <button>Learn more</button>
+                                                    <h6>Learn more</h6>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -120,10 +120,10 @@ function Main() {
                                                     <p>
                                                         Et est anim elit irure laboris officia tempor dolore 
                                                         tempor commodo amet aute eiusmod velit.Tempor dolore 
-                                                        tempor commodo amet aute eiusmod velit.
+                                                        tempor commodo amet aute eiusmod velit officia.
                                                     </p>
                                                     <Link to="/event3" onClick={ScrollToTop}>
-                                                    <button>Learn more</button>
+                                                    <h6>Learn more</h6>
                                                     </Link>
                                                 </div>
                                             </div>

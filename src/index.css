@@ -21,7 +21,11 @@ body {
 .Navbar{
   position: fixed;
   height: 40vh;
+  z-index: 2000;
   transition: top 0.3s;
+}
+.nav-item{
+  padding: 7px;
 }
 .nav-bg {
   height: 70px;
@@ -49,6 +53,9 @@ body {
 
 .drop-li li{
   color: #212529 !important;
+}
+.drop-li {
+  padding: 0px;
 }
 .dropdown-toggle {
   color: aliceblue;
@@ -104,9 +111,13 @@ body {
 }
 .Main{
   position: relative;
-  z-index: -1;
   background: #F7F7F6;
-  padding-top: 70px
+  top: 70px
+}
+.Main .event h6, .Main .carousel h6{
+  padding: 15px;
+  color: white;
+  background-color: #1F1F1F;
 }
 
 .Header picture img {
@@ -138,21 +149,16 @@ body {
   padding: 20px 20px;
   margin: 0px;
 }
-.disapear-scrolling {
-  position: relative;
-  z-index: 100;
-  display: none;
-}
 .Up-index {
   position: relative;
-  z-index: -1;
+  top: 70px;
   background: #F7F7F6;
 }
 .Up-index p{
   margin-top: 10px;
 }
 .space-color {
-  padding: 100px 30px 30px 30px;
+  padding: 30px;
 }
 /* event */
 .event {
@@ -210,6 +216,7 @@ body {
 .cards {
   background-color: #F7F7F6;
 }
+
 .card {
   box-shadow: 4px 4px 10px grey;
   overflow: hidden;
@@ -262,6 +269,7 @@ body {
   background-color: #1F1F1F;
   color: aliceblue;
   font-size: 14px;
+  padding-top: 70px;
 }
 .Footer h5{
   margin-bottom: 15px;
@@ -330,7 +338,6 @@ body {
   padding: 30px;
   background-color: #F7F7F6;
   position: relative;
-  z-index: -1;
   top: 70px
 }
 .ministries-set .card {
@@ -374,6 +381,7 @@ body {
   }
   .Up-index {
     z-index: 1;
+    top: 0;
   }
   .nav-links {
     position: relative;
@@ -394,7 +402,7 @@ body {
     color: white;
     padding: 15px;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     margin: 0px;
     letter-spacing: 0px;
   }
@@ -437,18 +445,13 @@ body {
     margin: 0px;
   }
   .disapear-scrolling {
-    background-color: transparent;
     display: block;
     position: absolute;
-    z-index: 0;
-    top: 0;
+    z-index: -1;
   }
   
   .fixed-scrolling {
     position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     left: 50%;
     top: 35%;
     transform: translate(-50%, -35%);
@@ -458,8 +461,8 @@ body {
   .Main{
     position: relative;
     background: #F7F7F6;
-    z-index: 10;
-    padding-top: 0px;
+    z-index: 100;
+    top: 0;
   }
  .event {
    padding: 20px 0px;
@@ -503,15 +506,8 @@ body {
     text-align: center;
     margin: 5px 0px;
   }
-  .carousel-indicators {
-    margin-top: 150px;
-  }
   .carousel-item {
     margin-top: 20px;
-  }
-  .carousel-indicators li {
-    width: 60px;
-    height: 5px;
   }
   .special-img {
     width: 50vw;
@@ -519,6 +515,8 @@ body {
   }
   .Footer{
     position: relative;
+    z-index: 100;
+    padding-top: 0px;
   }
   .wrapper-footer {
     display: flex;
