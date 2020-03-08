@@ -1,34 +1,38 @@
 {
   "files": {
     "main.css": "/static/css/main.31d2147a.chunk.css",
-    "main.js": "/static/js/main.0f987b7b.chunk.js",
-    "main.js.map": "/static/js/main.0f987b7b.chunk.js.map",
+    "main.js": "/static/js/main.56c03110.chunk.js",
+    "main.js.map": "/static/js/main.56c03110.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0d7cdbae.js",
     "runtime-main.js.map": "/static/js/runtime-main.0d7cdbae.js.map",
-    "static/js/2.66ee3a04.chunk.js": "/static/js/2.66ee3a04.chunk.js",
-    "static/js/2.66ee3a04.chunk.js.map": "/static/js/2.66ee3a04.chunk.js.map",
+    "static/js/2.f50094ef.chunk.js": "/static/js/2.f50094ef.chunk.js",
+    "static/js/2.f50094ef.chunk.js.map": "/static/js/2.f50094ef.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.66c838e2b2c6f8107f27d1dddf2e0bdb.js": "/precache-manifest.66c838e2b2c6f8107f27d1dddf2e0bdb.js",
+    "precache-manifest.864419a69a608b9da6aaf495916e1654.js": "/precache-manifest.864419a69a608b9da6aaf495916e1654.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.31d2147a.chunk.css.map": "/static/css/main.31d2147a.chunk.css.map",
-    "static/js/2.66ee3a04.chunk.js.LICENSE.txt": "/static/js/2.66ee3a04.chunk.js.LICENSE.txt",
+    "static/js/2.f50094ef.chunk.js.LICENSE.txt": "/static/js/2.f50094ef.chunk.js.LICENSE.txt",
     "static/media/al.png": "/static/media/al.7df7fb34.png",
     "static/media/church.jpg": "/static/media/church.d2363cdf.jpg",
     "static/media/cottom.jpg": "/static/media/cottom.e72deb86.jpg",
     "static/media/download.jpg": "/static/media/download.0a112733.jpg",
     "static/media/header.png": "/static/media/header.3e3c995d.png",
+    "static/media/history.jpg": "/static/media/history.9b43a3f2.jpg",
+    "static/media/location.jpg": "/static/media/location.e339e169.jpg",
+    "static/media/ministries.jpg": "/static/media/ministries.1752bc23.jpg",
     "static/media/mtmichael.jpg": "/static/media/mtmichael.4d955a63.jpg",
     "static/media/past_REACH.jpg": "/static/media/past_REACH.53ecfccd.jpg",
     "static/media/past_highlight.jpg": "/static/media/past_highlight.dbdb6f0e.jpg",
     "static/media/past_marriage.jpg": "/static/media/past_marriage.fef6af16.jpg",
     "static/media/pastor.jpg": "/static/media/pastor.6e964e71.jpg",
     "static/media/stmiclogo_redcolor460x155-2.png": "/static/media/stmiclogo_redcolor460x155-2.f3dec4c4.png",
+    "static/media/window_black.jpg": "/static/media/window_black.b0c255b7.jpg",
     "static/media/workship.jpg": "/static/media/workship.aacd5ee5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0d7cdbae.js",
-    "static/js/2.66ee3a04.chunk.js",
+    "static/js/2.f50094ef.chunk.js",
     "static/css/main.31d2147a.chunk.css",
-    "static/js/main.0f987b7b.chunk.js"
+    "static/js/main.56c03110.chunk.js"
   ]
 }

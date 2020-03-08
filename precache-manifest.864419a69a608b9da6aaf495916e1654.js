@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "979e73e88d856f911f2ca31fbef5add0",
+    "revision": "fcbd24935793b0f23b59e96fd205ff12",
     "url": "/index.html"
   },
   {
-    "revision": "cbf6a36a59c886b99322",
+    "revision": "b3d107b53fab47bca341",
     "url": "/static/css/main.31d2147a.chunk.css"
   },
   {
-    "revision": "6b5711db22a0cdf07722",
-    "url": "/static/js/2.66ee3a04.chunk.js"
+    "revision": "68416c4a211848864e84",
+    "url": "/static/js/2.f50094ef.chunk.js"
   },
   {
     "revision": "0d2320288227308a2855900744658c5e",
-    "url": "/static/js/2.66ee3a04.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.f50094ef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cbf6a36a59c886b99322",
-    "url": "/static/js/main.0f987b7b.chunk.js"
+    "revision": "b3d107b53fab47bca341",
+    "url": "/static/js/main.56c03110.chunk.js"
   },
   {
     "revision": "7d6a9e0af03f8a48074f",
@@ -44,6 +44,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/header.3e3c995d.png"
   },
   {
+    "revision": "9b43a3f22f81cdf565d630a4d249f5ac",
+    "url": "/static/media/history.9b43a3f2.jpg"
+  },
+  {
+    "revision": "e339e169da80b8e93ccb1dccfdc977eb",
+    "url": "/static/media/location.e339e169.jpg"
+  },
+  {
+    "revision": "1752bc23af54b58128055cbbdb925755",
+    "url": "/static/media/ministries.1752bc23.jpg"
+  },
+  {
     "revision": "4d955a63c46e98cc1e63352a2b555af8",
     "url": "/static/media/mtmichael.4d955a63.jpg"
   },
@@ -66,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f3dec4c4a67680d46d2c66dc88fa7617",
     "url": "/static/media/stmiclogo_redcolor460x155-2.f3dec4c4.png"
+  },
+  {
+    "revision": "b0c255b7333f639a19616a1ff9d41568",
+    "url": "/static/media/window_black.b0c255b7.jpg"
   },
   {
     "revision": "aacd5ee583774468a9d8ff828cbce728",
