@@ -464,6 +464,12 @@ body {
     z-index: 100;
     top: 0;
   }
+  .Main .event h6, .Main .carousel h6{
+    padding: 15px;
+    color: white;
+    width: 130px;
+    background-color: #1F1F1F;
+  }
  .event {
    padding: 20px 0px;
    border-top: 3px solid #3E434E;
