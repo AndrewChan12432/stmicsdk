@@ -4,7 +4,7 @@ import Header from '../components/Header'
 export default function Window() {
     return (
         <div className="Window">
-            <Header name="church.jpg"/>
+            <Header name="window_black.jpg"/>
             <div className="space-color Up-index">
                 <h5>The Windows of Remembrance & The Friendship Windows</h5>
                 <div className="mt-4">

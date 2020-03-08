@@ -4,7 +4,7 @@ import Header from '../components/Header'
 export default function Ministries() {
     return (
         <div className="Ministrie">
-            <Header name="church.jpg"/>
+            <Header name="ministries.jpg"/>
             <div className="ministries-set">
                <h4>Ministries</h4>
                <div className="d-flex flex-column flex-md-row">

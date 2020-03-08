@@ -4,7 +4,7 @@ import Header from '../components/Header';
 export default function History() {
     return (
         <div className="History">
-            <Header name="church.jpg" />
+            <Header name="history.jpg" />
             <div className="space-color Up-index">
             <h4>St Michael's History</h4>
             <p>
