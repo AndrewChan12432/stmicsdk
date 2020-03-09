@@ -1,4 +1,5 @@
 import React from 'react';
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import { Link } from 'react-router-dom'
 import Logo from '../images/stmiclogo_redcolor460x155-2.png';
 
@@ -6,44 +7,46 @@ const Navbar = () => {
     const ScrollToTop = () => {
         window.scrollTo(0, 0)
     }
-    var keys = {32: 1, 37: 1, 38: 1, 39: 1, 40: 1};
-function preventDefault(e) {
-  e = e || window.event;
-  if (e.preventDefault)
-      e.preventDefault();
-  e.returnValue = false;  
-}
+//     var keys = {32: 1, 37: 1, 38: 1, 39: 1, 40: 1};
+// function preventDefault(e) {
+//   e = e || window.event;
+//   if (e.preventDefault)
+//       e.preventDefault();
+//   e.returnValue = false;  
+// }
 
-function preventDefaultForScrollKeys(e) {
-    if (keys[e.keyCode]) {
-        preventDefault(e);
-        return false;
-    }
-}
+// function preventDefaultForScrollKeys(e) {
+//     if (keys[e.keyCode]) {
+//         preventDefault(e);
+//         return false;
+//     }
+// }
 
 function disableScroll() {
-  if (window.addEventListener) // older FF
-      window.addEventListener('DOMMouseScroll', preventDefault, false);
-  document.addEventListener('wheel', preventDefault, {passive: false}); // Disable scrolling in Chrome
-  window.onwheel = preventDefault; // modern standard
-  window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
-  window.ontouchmove  = preventDefault; // mobile
-  document.onkeydown  = preventDefaultForScrollKeys;
+  if (window.addEventListener); // older FF
+  disableBodyScroll(document.querySelector('body'));
+//       window.addEventListener('DOMMouseScroll', preventDefault, false);
+//   document.addEventListener('wheel', preventDefault, {passive: false}); // Disable scrolling in Chrome
+//   window.onwheel = preventDefault; // modern standard
+//   window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+//   window.ontouchmove  = preventDefault; // mobile
+//   document.onkeydown  = preventDefaultForScrollKeys;
 }
 function enableScroll() {
     if (window.removeEventListener)
-        window.removeEventListener('DOMMouseScroll', preventDefault, false);
-    document.removeEventListener('wheel', preventDefault, {passive: false}); // Enable scrolling in Chrome
-    window.onmousewheel = document.onmousewheel = null; 
-    window.onwheel = null; 
-    window.ontouchmove = null;  
-    document.onkeydown = null;  
+    enableBodyScroll(document.querySelector('body'))
+    //     window.removeEventListener('DOMMouseScroll', preventDefault, false);
+    // document.removeEventListener('wheel', preventDefault, {passive: false}); // Enable scrolling in Chrome
+    // window.onmousewheel = document.onmousewheel = null; 
+    // window.onwheel = null; 
+    // window.ontouchmove = null;  
+    // document.onkeydown = null;  
 }
     function navDisapear() {
         document.querySelector('.nav-links').classList.toggle('nav-active');
-        document.querySelector('.burger').classList.toggle('toggle')
+        document.querySelector('.burger').classList.toggle('toggle');
         if(document.querySelector(".nav-active") && window.innerWidth < 1024){
-            disableScroll();  
+            disableScroll();         
         }else {
             enableScroll();
         }
