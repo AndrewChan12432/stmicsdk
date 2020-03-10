@@ -9,7 +9,7 @@
       name="description"
       content="St. Michael's and All Angels Church or for short St. Michael is an Anglican church in the Malaysian city of Sandakan in the state of Sabah in northern Borneo. St. Michael is the oldest stone church in Sabah."
     />
-    <link rel="shortcut icon" type="image/png" href="../src/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
       var lastScrollTop = 0;
       window.addEventListener("scroll", function(){ 
    var st = window.pageYOffset || document.documentElement.scrollTop; 
-   if (st > lastScrollTop){
+   if (st > lastScrollTop && st > 70){
       // downscroll code
      document.querySelector(".Navbar").style.top = "-100px";
    } else {
