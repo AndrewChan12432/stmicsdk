@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "98b68be00f486a89a6a75b74330003bf",
+    "revision": "daa41a3100d8ed4e257458c7adfc974e",
     "url": "/index.html"
   },
   {
-    "revision": "7cc9c47bd62d1810c694",
+    "revision": "8e9fcdc1e1c94c06f689",
     "url": "/static/css/main.a72eb0f3.chunk.css"
   },
   {
-    "revision": "7d36bb4e0e96481231a1",
-    "url": "/static/js/2.38f65fb2.chunk.js"
+    "revision": "4a910927c293a79820ae",
+    "url": "/static/js/2.26b45193.chunk.js"
   },
   {
     "revision": "0d2320288227308a2855900744658c5e",
-    "url": "/static/js/2.38f65fb2.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.26b45193.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7cc9c47bd62d1810c694",
-    "url": "/static/js/main.ba668cda.chunk.js"
+    "revision": "8e9fcdc1e1c94c06f689",
+    "url": "/static/js/main.047f501f.chunk.js"
   },
   {
     "revision": "7d6a9e0af03f8a48074f",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f3dec4c4a67680d46d2c66dc88fa7617",
     "url": "/static/media/stmiclogo_redcolor460x155-2.f3dec4c4.png"
+  },
+  {
+    "revision": "7e29d61e94e82c0372808beaead9045e",
+    "url": "/static/media/virus.7e29d61e.jpg"
   },
   {
     "revision": "b0c255b7333f639a19616a1ff9d41568",
