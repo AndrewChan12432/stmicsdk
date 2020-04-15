@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Ministries from './Pagecomponents/Ministries';
 import Window from './Pagecomponents/Window';
 import LandingPage from './Pagecomponents/LandingPage';
+import ErrorPage from './Pagecomponents/Error'
 import SimpleReactLightbox from "simple-react-lightbox";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route path="/event2" component={Event_cont1} />
           <Route path="/event3" component={Event_cont2} />
           <Route path="/window" component={Window} />
+          <Route component={ErrorPage} />
         </Switch>
         <Footer />
        </SimpleReactLightbox>

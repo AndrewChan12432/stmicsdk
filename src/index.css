@@ -362,6 +362,11 @@ body {
   width: 350px;
   height: 200px;
 }
+.error p{
+  padding: 10px;
+  background-color: #1F1F1F;
+  border-radius: 5px;
+}
  @media only screen and (min-width: 576px) {
    .p{
      font-size: 14px

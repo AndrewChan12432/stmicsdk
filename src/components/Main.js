@@ -3,7 +3,7 @@ import baptism from '../images/baptism.jpg'
 import marry from '../images/marriage.jpg'
 import church from '../images/mtmichael.jpg'
 // import workship from '../images/workship.jpg'
-import eventAnnounce from '../images/al.png';
+import eventAnnounce from '../images/virus.jpg';
 import { Link } from 'react-router-dom'
 
 function Main() {
@@ -14,10 +14,10 @@ function Main() {
         <div className="Main">
                 <div className="container-fluid event d-flex justify-content-center">
                     <div className="col-md-10 d-flex justify-content-center flex-column flex-lg-row">
-                    <img src={ eventAnnounce } alt="event-announcement" className=" col-sm-6 col-lg-4" />
+                    <img src={ eventAnnounce } alt="event-announcement" className=" col-sm-6 col-lg-4 pt-3" />
                      <div className="ml-md-4 mt-4 mx-3">
-                        <h5>New event had Begin!!</h5>
-                        <p>Ad enim occaecat proident reprehenderit cillum eu ea magna. Eu nostrud irure qui aliqua cillum adipisicing velit consectetur dolore voluptate id nostrud et nisi. Sint duis anim proident incididunt sunt minim eu. Laboris in sint aliqua deserunt exercitation cillum. </p>
+                        <h5>Stay away Coronavirus</h5>
+                        <p>Coronavirus disease (COVID-19) is an infectious disease caused by a new virus that had not been previously identified in humans.We had cancel our service until the disease is stable.</p>
                         <Link to="/landing-page" onClick={ScrollToTop}> 
                            <h6>Learn more</h6>
                         </Link>
